@@ -1,10 +1,9 @@
 import './App.css'
+import { AppRouter } from './routes/AppRouter'
 
 function App() {
   return (
-    <>
-      <p>Welcome to Event Mate!</p>
-    </>
+    <AppRouter/>
   )
 }
 
